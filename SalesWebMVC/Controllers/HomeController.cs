@@ -30,6 +30,10 @@ namespace SalesWebMVC.Controllers
 
         public IActionResult About()
         {
+            ViewData["Owner"] = "Reginaldo Souza";
+            ViewData["Message"] = "Sistema de Vendas";
+            ViewData["Email"] = "reginaldo.jssouza@gmail.com";
+
             return View();
         }
 
